@@ -1,0 +1,62 @@
+select{
+    -webkit-appearance: none;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 50px 10px 10px;
+    background: url('../img/downarrow.png') no-repeat 95% center;
+    background-color: #fff;
+    background-size: 19px;
+    border-radius: 4px;
+    border: 2px solid #c2e0f9;
+    width: 300px;
+    font-family: sans-serif;
+    color: #676666;
+}
+
+p{
+    margin: 10px 0;
+}
+
+input{
+    height: 39px;
+    width: 300px;
+    border: 2px solid #c2e0f9;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #676666;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+section{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: #ccccec;
+    position: absolute;
+    right: 52px;
+    padding: 10px;
+    margin-top: 30px;
+    color: #4a4747;
+    font-weight: 600;
+}
+
+.user-form{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: auto;
+    position: absolute;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
